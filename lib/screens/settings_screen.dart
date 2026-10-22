@@ -58,7 +58,7 @@ class SettingsScreen extends StatelessWidget {
       ),
     );
     if (ok == true) {
-      await quiz.resetProgress();
+      quiz.resetAfterClear();
       if (context.mounted) {
         ScaffoldMessenger.of(context)
             .showSnackBar(const SnackBar(content: Text('Progres direset')));

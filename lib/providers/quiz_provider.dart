@@ -79,12 +79,6 @@ class QuizProvider extends ChangeNotifier {
     await _save();
   }
 
-  Future<void> resetProgress() async {
-    best.clear();
-    notifyListeners();
-    await _save();
-  }
-
   void resetAfterClear() {
   best.clear();
   category = null;

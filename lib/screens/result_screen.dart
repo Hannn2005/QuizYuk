@@ -10,7 +10,7 @@ class ResultScreen extends StatelessWidget {
   const ResultScreen({super.key});
 
   String _message(int p) {
-    if (p == 100) return 'Sempurna! 🎉';
+    if (p == 100) return 'Sempurna! ';
     if (p >= 70) return 'Kerja bagus!';
     if (p >= 40) return 'Lumayan, terus berlatih!';
     return 'Jangan menyerah, coba lagi!';

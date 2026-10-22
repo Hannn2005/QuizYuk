@@ -64,7 +64,7 @@ class AppTheme {
   }
 }
 
-/// Membatasi lebar konten agar nyaman di tablet/browser.
+
 class ContentWidth extends StatelessWidget {
   final Widget child;
   const ContentWidth({super.key, required this.child});
